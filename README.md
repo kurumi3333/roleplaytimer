@@ -49,7 +49,7 @@
 ## 安装
 
 ```sh
-dsh plugin --profile <profile> add "git+https://github.com/2huy4n/roleplaytimer#v0.2.0"
+dsh plugin --profile web add "git+https://github.com/kurumi3333/roleplaytimer#v0.2.0"
 ```
 
 重启 DSH，在「设置」里找到 **roleplaytimer** 控制面板：勾选「启用主动唤醒」，再对着你想唤醒的会话点「取消静音」。
