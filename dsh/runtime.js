@@ -26,7 +26,7 @@ export function createWakeMessage(text, plugin = 'roleplaytimer') {
     id: randomUUID(),
     role: 'user',
     content: [{ type: 'text', text: String(text == null ? '' : text) }],
-    source: { kind: 'plugin', plugin },
+    source: { kind: 'plugin: roleplaytimer', plugin },
   }
 }
 
